@@ -1,4 +1,5 @@
 def largest_palindrome():
+    """Finds the largest palindrome made by multiplying two three-digit numbers together"""
     first = 100
     second = 100
     largest = 0

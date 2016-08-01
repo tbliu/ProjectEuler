@@ -1,29 +1,18 @@
-def memo(function):
-    cache = {}
-    def memoized(n):
-        if function(n) not in cache:
-            cache[n] = function(n)
-        return cache[n]
-    return memoized
-
-def is_prime(x):
-    i = 2
-    while i < x:
-        if x % i == 0:
-            return False
-        i += 1
-    return True
-
-def prime(x):
-    count = 0
-    i = 1
-    while count <= x:
-        print(i)
-        if is_prime(i) == True:
-            count += 1
-        i += 1
-    print(i)
+def prime(n):
+    primes = [2]
+    x = 3
+    while True:
+        is_prime = True
+        for y in primes:
+            if x % y == 0:
+                is_prime = False  
+        if is_prime:
+            primes.append(x)
+        if len(primes) == n:
+            print(primes[n-1])
+            return
+        x += 2 #skips even numbers
 
 
-memo(prime(10001))
+prime(10001)
 

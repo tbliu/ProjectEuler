@@ -1,4 +1,5 @@
 def prime(n):
+"""Finds the 10,001st prime number"""
     primes = [2]
     x = 3
     while True:

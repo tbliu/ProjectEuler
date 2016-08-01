@@ -1,20 +1,5 @@
-"""def smallest():
-    x = 2521
-    ans = False
-    while ans != True:
-        i = 2
-        while i <= 20:
-            print(x, i)
-            if x % i != 0:
-                ans = False
-                break
-            else:
-                ans = True
-            i += 1
-        x += 1
-    print(x) """
-
 def smallest():
+"""Finds smallest number that can be evenly divided by all the numbers from 1 - 20"""
     x = 1
     for i in range(2, 21):
         if x % i != 0:

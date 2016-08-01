@@ -1,3 +1,4 @@
+"""Finds the largest prime factor of 600851475143"""
 def largest_prime(max):
     x = 1
     largest = 0
@@ -11,6 +12,7 @@ def largest_prime(max):
     print(largest)
             
             
+"""Checks if a number is prime"""
 def is_prime(x):
     if x == 1:
         return True

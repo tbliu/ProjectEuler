@@ -1,3 +1,4 @@
+"""Computes the difference of the square of sums in a sequence and the sum of squares in a sequence"""
 def square_of_sum(x):
     sum = 0
     i = 1
@@ -15,8 +16,6 @@ def sum_of_squares(x):
     return sum
 
 def main(n):
-    #print(sum_of_squares(n))
-    #print(square_of_sum(n))
     print(square_of_sum(n) - sum_of_squares(n))
 
 main(100)

@@ -1,5 +1,5 @@
 def product(n, x):
-    """Finds the n adjacent digits that produce the greatest sum in a number"""
+    """Finds the n adjacent digits that produce the greatest product in a number"""
     lst = []
     while x > 0:
         lst.append(x%10)

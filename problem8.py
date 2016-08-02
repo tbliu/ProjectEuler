@@ -14,13 +14,11 @@ def product(n, x):
         i = j
         while i < k:
             total = total * lst[i]
-            #print(lst[i])
             i += 1
         if total > largest:
             largest = total
         j += 1
         k += 1
-        #print(total, largest, j, k)
     print(largest)
         
 

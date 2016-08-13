@@ -26,5 +26,4 @@ def is_prime(x):
     return prime
 
 
-#largest_prime(13195)
 largest_prime(600851475143)

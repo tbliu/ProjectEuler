@@ -1,4 +1,4 @@
 # ProjectEuler
 From https://projecteuler.net/archives
 
-My solutions to the Project Euler problems. 
+My (beginner) solutions to the Project Euler problems. 
